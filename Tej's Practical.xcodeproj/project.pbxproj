@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A31BE452621847D00AF7F8B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31BE442621847D00AF7F8B /* Extension.swift */; };
+		3A31BE462621847D00AF7F8B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31BE442621847D00AF7F8B /* Extension.swift */; };
+		3A31BE472621847D00AF7F8B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31BE442621847D00AF7F8B /* Extension.swift */; };
+		3A31BE5E26219C5F00AF7F8B /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31BE5D26219C5F00AF7F8B /* EmployeeListVC.swift */; };
+		3A31BE5F26219C5F00AF7F8B /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31BE5D26219C5F00AF7F8B /* EmployeeListVC.swift */; };
+		3A31BE6026219C5F00AF7F8B /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A31BE5D26219C5F00AF7F8B /* EmployeeListVC.swift */; };
+		3AB83806262069D000CB5A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB83805262069D000CB5A98 /* AppDelegate.swift */; };
+		3AB83808262069D000CB5A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB83807262069D000CB5A98 /* SceneDelegate.swift */; };
+		3AB8380A262069D000CB5A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB83809262069D000CB5A98 /* ViewController.swift */; };
+		3AB8380D262069D000CB5A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB8380B262069D000CB5A98 /* Main.storyboard */; };
+		3AB83810262069D000CB5A98 /* Tej_s_Practical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8380E262069D000CB5A98 /* Tej_s_Practical.xcdatamodeld */; };
+		3AB83812262069D700CB5A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB83811262069D700CB5A98 /* Assets.xcassets */; };
+		3AB83815262069D700CB5A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB83813262069D700CB5A98 /* LaunchScreen.storyboard */; };
+		3AB83820262069D800CB5A98 /* Tej_s_PracticalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8381F262069D800CB5A98 /* Tej_s_PracticalTests.swift */; };
+		3AB8382B262069D800CB5A98 /* Tej_s_PracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8382A262069D800CB5A98 /* Tej_s_PracticalUITests.swift */; };
+		3AB8385926206E2700CB5A98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8385826206E2500CB5A98 /* CustomButton.swift */; };
+		3AB8385A26206E2700CB5A98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8385826206E2500CB5A98 /* CustomButton.swift */; };
+		3AB8385B26206E2700CB5A98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8385826206E2500CB5A98 /* CustomButton.swift */; };
+		3AB83863262077E500CB5A98 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB83862262077E500CB5A98 /* CardView.swift */; };
+		3AB83864262077E500CB5A98 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB83862262077E500CB5A98 /* CardView.swift */; };
+		3AB83865262077E500CB5A98 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB83862262077E500CB5A98 /* CardView.swift */; };
+		3AE6E5402621B4EC00AF06B9 /* EmpListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6E53E2621B4EC00AF06B9 /* EmpListCell.swift */; };
+		3AE6E5412621B4EC00AF06B9 /* EmpListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6E53E2621B4EC00AF06B9 /* EmpListCell.swift */; };
+		3AE6E5422621B4EC00AF06B9 /* EmpListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6E53E2621B4EC00AF06B9 /* EmpListCell.swift */; };
+		3AE6E5432621B4EC00AF06B9 /* EmpListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE6E53F2621B4EC00AF06B9 /* EmpListCell.xib */; };
+		3AE6E5442621B4EC00AF06B9 /* EmpListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE6E53F2621B4EC00AF06B9 /* EmpListCell.xib */; };
+		3AE6E5452621B4EC00AF06B9 /* EmpListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE6E53F2621B4EC00AF06B9 /* EmpListCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB8381C262069D800CB5A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB837FA262069D000CB5A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB83801262069D000CB5A98;
+			remoteInfo = "Tej's Practical";
+		};
+		3AB83827262069D800CB5A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB837FA262069D000CB5A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB83801262069D000CB5A98;
+			remoteInfo = "Tej's Practical";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A31BE442621847D00AF7F8B /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3A31BE5D26219C5F00AF7F8B /* EmployeeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
+		3AB83802262069D000CB5A98 /* Tej's Practical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tej's Practical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB83805262069D000CB5A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AB83807262069D000CB5A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AB83809262069D000CB5A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AB8380C262069D000CB5A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB8380F262069D000CB5A98 /* Tej_s_Practical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tej_s_Practical.xcdatamodel; sourceTree = "<group>"; };
+		3AB83811262069D700CB5A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB83814262069D700CB5A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AB83816262069D700CB5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB8381B262069D800CB5A98 /* Tej's PracticalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tej's PracticalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB8381F262069D800CB5A98 /* Tej_s_PracticalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tej_s_PracticalTests.swift; sourceTree = "<group>"; };
+		3AB83821262069D800CB5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB83826262069D800CB5A98 /* Tej's PracticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tej's PracticalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB8382A262069D800CB5A98 /* Tej_s_PracticalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tej_s_PracticalUITests.swift; sourceTree = "<group>"; };
+		3AB8382C262069D800CB5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB8385826206E2500CB5A98 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3AB83862262077E500CB5A98 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3AE6E53E2621B4EC00AF06B9 /* EmpListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpListCell.swift; sourceTree = "<group>"; };
+		3AE6E53F2621B4EC00AF06B9 /* EmpListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpListCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB837FF262069D000CB5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB83818262069D800CB5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB83823262069D800CB5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A31BE512621910500AF7F8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A31BE5C26219C2B00AF7F8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6E53D2621B4CE00AF06B9 /* Cell */,
+				3AB83809262069D000CB5A98 /* ViewController.swift */,
+				3A31BE5D26219C5F00AF7F8B /* EmployeeListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3A38902A2622E0EF0033FC79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AB83811262069D700CB5A98 /* Assets.xcassets */,
+				3AB8380B262069D000CB5A98 /* Main.storyboard */,
+				3AB83813262069D700CB5A98 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AB837F9262069D000CB5A98 = {
+			isa = PBXGroup;
+			children = (
+				3AB83804262069D000CB5A98 /* Tej's Practical */,
+				3AB8381E262069D800CB5A98 /* Tej's PracticalTests */,
+				3AB83829262069D800CB5A98 /* Tej's PracticalUITests */,
+				3AB83803262069D000CB5A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB83803262069D000CB5A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB83802262069D000CB5A98 /* Tej's Practical.app */,
+				3AB8381B262069D800CB5A98 /* Tej's PracticalTests.xctest */,
+				3AB83826262069D800CB5A98 /* Tej's PracticalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB83804262069D000CB5A98 /* Tej's Practical */ = {
+			isa = PBXGroup;
+			children = (
+				3AB83805262069D000CB5A98 /* AppDelegate.swift */,
+				3AB83807262069D000CB5A98 /* SceneDelegate.swift */,
+				3AB8383B26206D7800CB5A98 /* CommonFiles */,
+				3A38902A2622E0EF0033FC79 /* View */,
+				3A31BE5C26219C2B00AF7F8B /* Controller */,
+				3A31BE512621910500AF7F8B /* Model */,
+				3AB83816262069D700CB5A98 /* Info.plist */,
+				3AB8380E262069D000CB5A98 /* Tej_s_Practical.xcdatamodeld */,
+			);
+			path = "Tej's Practical";
+			sourceTree = "<group>";
+		};
+		3AB8381E262069D800CB5A98 /* Tej's PracticalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8381F262069D800CB5A98 /* Tej_s_PracticalTests.swift */,
+				3AB83821262069D800CB5A98 /* Info.plist */,
+			);
+			path = "Tej's PracticalTests";
+			sourceTree = "<group>";
+		};
+		3AB83829262069D800CB5A98 /* Tej's PracticalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8382A262069D800CB5A98 /* Tej_s_PracticalUITests.swift */,
+				3AB8382C262069D800CB5A98 /* Info.plist */,
+			);
+			path = "Tej's PracticalUITests";
+			sourceTree = "<group>";
+		};
+		3AB8383B26206D7800CB5A98 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3AB8385826206E2500CB5A98 /* CustomButton.swift */,
+				3AB83862262077E500CB5A98 /* CardView.swift */,
+				3A31BE442621847D00AF7F8B /* Extension.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		3AE6E53D2621B4CE00AF06B9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6E53E2621B4EC00AF06B9 /* EmpListCell.swift */,
+				3AE6E53F2621B4EC00AF06B9 /* EmpListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB83801262069D000CB5A98 /* Tej's Practical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB8382F262069D800CB5A98 /* Build configuration list for PBXNativeTarget "Tej's Practical" */;
+			buildPhases = (
+				3AB837FE262069D000CB5A98 /* Sources */,
+				3AB837FF262069D000CB5A98 /* Frameworks */,
+				3AB83800262069D000CB5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tej's Practical";
+			productName = "Tej's Practical";
+			productReference = 3AB83802262069D000CB5A98 /* Tej's Practical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB8381A262069D800CB5A98 /* Tej's PracticalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB83832262069D800CB5A98 /* Build configuration list for PBXNativeTarget "Tej's PracticalTests" */;
+			buildPhases = (
+				3AB83817262069D800CB5A98 /* Sources */,
+				3AB83818262069D800CB5A98 /* Frameworks */,
+				3AB83819262069D800CB5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB8381D262069D800CB5A98 /* PBXTargetDependency */,
+			);
+			name = "Tej's PracticalTests";
+			productName = "Tej's PracticalTests";
+			productReference = 3AB8381B262069D800CB5A98 /* Tej's PracticalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AB83825262069D800CB5A98 /* Tej's PracticalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB83835262069D800CB5A98 /* Build configuration list for PBXNativeTarget "Tej's PracticalUITests" */;
+			buildPhases = (
+				3AB83822262069D800CB5A98 /* Sources */,
+				3AB83823262069D800CB5A98 /* Frameworks */,
+				3AB83824262069D800CB5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB83828262069D800CB5A98 /* PBXTargetDependency */,
+			);
+			name = "Tej's PracticalUITests";
+			productName = "Tej's PracticalUITests";
+			productReference = 3AB83826262069D800CB5A98 /* Tej's PracticalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB837FA262069D000CB5A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3AB83801262069D000CB5A98 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					3AB8381A262069D800CB5A98 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3AB83801262069D000CB5A98;
+					};
+					3AB83825262069D800CB5A98 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3AB83801262069D000CB5A98;
+					};
+				};
+			};
+			buildConfigurationList = 3AB837FD262069D000CB5A98 /* Build configuration list for PBXProject "Tej's Practical" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB837F9262069D000CB5A98;
+			productRefGroup = 3AB83803262069D000CB5A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB83801262069D000CB5A98 /* Tej's Practical */,
+				3AB8381A262069D800CB5A98 /* Tej's PracticalTests */,
+				3AB83825262069D800CB5A98 /* Tej's PracticalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB83800262069D000CB5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB83815262069D700CB5A98 /* LaunchScreen.storyboard in Resources */,
+				3AB83812262069D700CB5A98 /* Assets.xcassets in Resources */,
+				3AE6E5432621B4EC00AF06B9 /* EmpListCell.xib in Resources */,
+				3AB8380D262069D000CB5A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB83819262069D800CB5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE6E5442621B4EC00AF06B9 /* EmpListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB83824262069D800CB5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE6E5452621B4EC00AF06B9 /* EmpListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB837FE262069D000CB5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB8380A262069D000CB5A98 /* ViewController.swift in Sources */,
+				3AB83806262069D000CB5A98 /* AppDelegate.swift in Sources */,
+				3A31BE452621847D00AF7F8B /* Extension.swift in Sources */,
+				3AB83808262069D000CB5A98 /* SceneDelegate.swift in Sources */,
+				3AB83810262069D000CB5A98 /* Tej_s_Practical.xcdatamodeld in Sources */,
+				3AE6E5402621B4EC00AF06B9 /* EmpListCell.swift in Sources */,
+				3A31BE5E26219C5F00AF7F8B /* EmployeeListVC.swift in Sources */,
+				3AB83863262077E500CB5A98 /* CardView.swift in Sources */,
+				3AB8385926206E2700CB5A98 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB83817262069D800CB5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A31BE5F26219C5F00AF7F8B /* EmployeeListVC.swift in Sources */,
+				3AB8385A26206E2700CB5A98 /* CustomButton.swift in Sources */,
+				3AB83864262077E500CB5A98 /* CardView.swift in Sources */,
+				3AB83820262069D800CB5A98 /* Tej_s_PracticalTests.swift in Sources */,
+				3AE6E5412621B4EC00AF06B9 /* EmpListCell.swift in Sources */,
+				3A31BE462621847D00AF7F8B /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB83822262069D800CB5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A31BE6026219C5F00AF7F8B /* EmployeeListVC.swift in Sources */,
+				3AB8385B26206E2700CB5A98 /* CustomButton.swift in Sources */,
+				3AB83865262077E500CB5A98 /* CardView.swift in Sources */,
+				3AB8382B262069D800CB5A98 /* Tej_s_PracticalUITests.swift in Sources */,
+				3AE6E5422621B4EC00AF06B9 /* EmpListCell.swift in Sources */,
+				3A31BE472621847D00AF7F8B /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB8381D262069D800CB5A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB83801262069D000CB5A98 /* Tej's Practical */;
+			targetProxy = 3AB8381C262069D800CB5A98 /* PBXContainerItemProxy */;
+		};
+		3AB83828262069D800CB5A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB83801262069D000CB5A98 /* Tej's Practical */;
+			targetProxy = 3AB83827262069D800CB5A98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AB8380B262069D000CB5A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB8380C262069D000CB5A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AB83813262069D700CB5A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB83814262069D700CB5A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AB8382D262069D800CB5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AB8382E262069D800CB5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AB83830262069D800CB5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tej's Practical/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.Tej-s-Practical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AB83831262069D800CB5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tej's Practical/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.Tej-s-Practical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AB83833262069D800CB5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tej's PracticalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.Tej-s-PracticalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tej's Practical.app/Tej's Practical";
+			};
+			name = Debug;
+		};
+		3AB83834262069D800CB5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tej's PracticalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.Tej-s-PracticalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tej's Practical.app/Tej's Practical";
+			};
+			name = Release;
+		};
+		3AB83836262069D800CB5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tej's PracticalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.Tej-s-PracticalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tej's Practical";
+			};
+			name = Debug;
+		};
+		3AB83837262069D800CB5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tej's PracticalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.app.Tej-s-PracticalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tej's Practical";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB837FD262069D000CB5A98 /* Build configuration list for PBXProject "Tej's Practical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB8382D262069D800CB5A98 /* Debug */,
+				3AB8382E262069D800CB5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB8382F262069D800CB5A98 /* Build configuration list for PBXNativeTarget "Tej's Practical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB83830262069D800CB5A98 /* Debug */,
+				3AB83831262069D800CB5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB83832262069D800CB5A98 /* Build configuration list for PBXNativeTarget "Tej's PracticalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB83833262069D800CB5A98 /* Debug */,
+				3AB83834262069D800CB5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB83835262069D800CB5A98 /* Build configuration list for PBXNativeTarget "Tej's PracticalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB83836262069D800CB5A98 /* Debug */,
+				3AB83837262069D800CB5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AB8380E262069D000CB5A98 /* Tej_s_Practical.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AB8380F262069D000CB5A98 /* Tej_s_Practical.xcdatamodel */,
+			);
+			currentVersion = 3AB8380F262069D000CB5A98 /* Tej_s_Practical.xcdatamodel */;
+			path = Tej_s_Practical.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AB837FA262069D000CB5A98 /* Project object */;
+}
